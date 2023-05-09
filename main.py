@@ -98,8 +98,8 @@ def place_frame(image):
 
 current_cam = -1    # show all cam, if value >= 0 --> show specific cam
 
-no_signal_image = np.array(cv2.imread("no_signal_image.png"))
-no_camera_image = np.array(cv2.imread("no_camera_image.png"))
+no_signal_image = np.array(cv2.imread("assets/no_signal_image.png"))
+no_camera_image = np.array(cv2.imread("assets/no_camera_image.png"))
 
 # defining the tkinter window
 win = tk.Tk()
