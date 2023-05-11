@@ -1,4 +1,4 @@
-# Security_camera_interface
+# security_camera_interface
 The code provides an interface for any types of sources which cv2.VideoCapture() can read. Such as videos or cameras on local network.
 It uses cv2 (for image processing), tkinter (for the GUI), numpy, PIL and datetime.
 The interface can provide good quality and smooth picture when only reading one camera/video.
